@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.app {
+	background: rgb(204, 203, 203);
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	padding: 20px;
+	background: #fae2e2ee;
+
+	&-header {
+		display: flex;
+		justify-content: space-between;
+		padding: 7px;
+	}
+
+	&-access {
+		display: flex;
+		gap: 10px;
+	}
+}
+
+a {
+	padding: 5px;
+	border-radius: 6px;
+	border: 2px solid green;
+	text-decoration: none;
+
+	&:hover {
+		border: 2px solid green;
+	}
+	&.active {
+		background: yellowgreen;
+		border: 2px solid green;
+	}
+}
+button {
+	padding: 5px;
+	&:hover {
+		background-color: rgb(98, 143, 80);
+	}
+}
+h1 {
+	color: rgb(98, 143, 80);
+}
